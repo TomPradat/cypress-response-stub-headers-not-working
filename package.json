@@ -1,0 +1,15 @@
+{
+  "name": "cypress-response-stub-headers-not-working",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tom Pradat <tom.pradat@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.3.0",
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "start": "serve -s src -l 3000"
+  }
+}
