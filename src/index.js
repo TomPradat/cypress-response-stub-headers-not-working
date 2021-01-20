@@ -4,15 +4,9 @@ const testFetching = async () => {
 
   const expectedHeader = response.headers.get("foo");
 
-  console.log(
-    "expectedHeader",
-    expectedHeader,
-    text,
-    response.headers,
-    response.headers.keys()
-  );
+  console.log("expectedHeader", expectedHeader, text);
 
-  if (expectedHeader !== "bar") {
+  if (expectedHeader === "bar") {
     const div = document.createElement("div");
     div.innerText = "The header was found";
 
