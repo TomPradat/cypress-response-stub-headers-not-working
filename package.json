@@ -5,7 +5,7 @@
   "author": "Tom Pradat <tom.pradat@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^6.3.0",
+    "cypress": "^6.8.0",
     "serve": "^11.3.2"
   },
   "scripts": {
